@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+/*-----------header*/
+header{
+    font-family: 'Lato', sans-serif;
+    background-color: #FCB425;
+    color: #fff;
+    width: 100%;
+    z-index: 200;
+}
+header h1{
+    font-size: 30px;
+}
+#icon-header{
+    font-size: 22px;  
+}
+#icon-header:hover{
+    margin: 3px;    
+}
+header p{
+    margin-top: -7px;  
+    font-size: 22px;
+}
+.fa-phone,.fa-whatsapp,.fa-envelope-o,.fa-map-marker{
+    color: #F24A63;
+}
+/*---------borde y fondo de menu en desktop-------*/
+.navbar-default{
+    background-color: #FCB425;
+    border-color: #FCB425;
+    margin-bottom: 0;
+}
+.dropdown-menu li a:hover{
+    background-color: purple;    
+}
+/*-------Borde inferior de menu-xs-----*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #FCB425;    
+}
+.dropdown-menu{
+    background-color: #FCB425;    
+}
+/*-----------pestañas en xs ejm telecomunicaciones----*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #FCB425;
+}
+.fa-search{
+    color: #A7A7A7;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+div.box-search input{
+    border-radius: 10px;
+}
+.dropdown-toggle{
+    font-size: 13px;   
+    text-transform: uppercase;
+}
+.dropdown-menu .divider{
+    background-color: #FCB425;    
+}
+/*--------END---header*/
+/*-------------banner*/
+.banner{
+    color: #fff;
+}
+.banner p:first-child{
+    font-size: 30px;
+}
+.banner p:nth-child(2){
+    padding: 0 300px;
+}
+.content-banner{
+    padding: 190px 40px 70px 40px;   
+    text-align: center;
+}
+.hero .banner button{
+    background: #F05F40;
+    border-radius: 20px; 
+    margin: 80px 0;
+}
+/*----------END---banner*/
+
+/*-------nuestros-servicios*/
+section.servicios{
+    margin: 40px 0;        
+}
+section.servicios .box-icono{
+    color: #F05F40; 
+    font-size: 40px;
+}
+section.servicios p{
+    vertical-align: top;
+    color: purple;
+}
+/*-----END--nuestros-servicios*/
+/*-------container-liquidaciones*/
+section.liquidaciones h2{
+    /*background: purple;*/
+    color: #333;
+}
+section.liquidaciones{
+    
+}
+section.liquidaciones .col-sm-4, section.liquidaciones .row{
+    padding: 0;
+    margin: 0;    
+}
+section.liquidaciones img{
+    display: inline-block;
+}
+section.liquidaciones button{
+    background: #fff;
+    border-radius: 20px;    
+}
+.box-categoria-proyecto{
+    position: relative;        
+}
+.box-p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    /*background: rgba(240, 95, 64,.6);*/
+    background-color: rgba(252, 180, 37,.6);
+    opacity: 0;
+}
+.box-p:hover,.box-p:focus,.box-p:active{
+    opacity: 1;
+}
+.box-categoria-proyecto p{
+    position: absolute;
+    font-size: 30px;        
+    color: #fff;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translateY(-50%);  
+}
+
+    .box-categoria-proyecto p:hover,.box-categoria-proyecto p:focus,.box-categoria-proyecto p:active{
+        opacity: 1;
+    }
+/*-----END--container-liquidaciones*/
+
+/*--------Contactame*/
+section.contactame .box-icono{ 
+    font-size: 25px;
+}
+p#email-maday{
+    color: #F05F40;     
+}
+/*-----END---Contactame*/
+/*------------footer*/
+.img-circle{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+	line-height: 50px;
+	font-size: 60px;
+	text-align: center;
+	box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
+	border-radius: 200px;
+	color: skyblue;
+}
+.img-circle:hover{
+    padding: 5px;
+}
+footer p{
+    background-color: #FCB425;
+    margin: 0;
+    padding: 10px;
+}
+/*----------END--footer*/

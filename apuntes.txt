@@ -1,0 +1,41 @@
+gestor de comtenido, 
+importar desde excel
+autonomia
+3000 productos si se puede importar
+stock
+ejm deltron
+con precis refeenciales
+enviar al correo personalizado sobre liquidaciones e-mail
+imagen descripcion precio 
+xq Registrese?
+link de fabrica
+chat
+medios de comunicacion skype whatsapp correo 
+google map
+comprtir en redes socialess
+l funcion lupa
+/*Organización de los productos*/
+Como organiza sus productos
+    Categorias
+    Sub categrias
+    Logo
+    Fotografias de los productos negociar
+Infomacion relevante
+    Equipo de trabajo
+    Casos de exito(se hace una seccion si hay varias)
+    
+Consultas para el profesor
+    Como ordenar los productos por marcas o categorias?
+como funiona un servidor local
+xampp   wamp 
+mysql
+apache
+php
+Atributos de la pagina web isce:
+	1. El usuario tiene que poder actulizar sus productos y stock
+http://getbootstrap.com/components/#input-groups
+Thumbnails
+************************************************
+Consideraciones del menu cuando haya scroll abajo desaparesca el menu y cuando haya scroll arriba aparesca.
+2. Que significa todos los derechos reservados
+3. Cochesito

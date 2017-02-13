@@ -1,0 +1,74 @@
+/*------------CELULARES-----*/
+@media screen and (max-width:767px){
+    header{
+        text-align: center; 
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+    /*.box-search{
+        text-align: center;
+    }
+    /*header h1 a{
+        color: #F05F40;        
+    }*/
+.content-banner{
+    padding: 120px 20px 40px 20px;   
+    text-align: center;
+}
+.container-footer{
+    padding: 20px 50px 60px 50px;
+}  
+.banner p:nth-child(2){
+    padding: 0 50px;
+}  
+    footer{
+            
+    }
+    /*.box-categoria-proyecto p{
+        padding: 80px 0;
+    }    */
+    .contactame{
+    padding: 20px 30px 60px 30px;
+    }
+}
+/*------------TABLET-----*/
+@media screen and (min-width:768px) and (max-width:991px){
+    /*header{
+        background-image: url("");
+        background-size: cover;
+    }*/
+    header h1{
+        padding-top: 4px;
+    }
+    a.menu__link{
+        padding: 10px;
+    }
+    .contactame{
+    padding: 20px 300px 60px 300px;
+    }    
+}
+/*------------DESKTOP-----*/
+@media screen and (min-width:992px) and (max-width:1199px){
+    header{
+        background-image: url("");
+        background-size: cover;
+    }
+    header h1{
+        font-size: 35px;
+    }    
+}
+/*------------DESKTOP LARGE-----*/
+@media screen and (min-width:1200px){
+    header{
+        background-image: url("");
+        background-size: cover;
+    }
+    header h1{
+        font-size: 45px;
+    } 
+        footer{
+        
+    }
+}
